@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>KAITO MOVIE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="intro">
+    <button id="startBtn"><img id="clapperImg" src="1.png" alt="カチンコ"></button>
+    <div id="recMark" class="hidden">● REC</div>
+  </div>
+
+  <div id="overlayTitle" class="hidden"> KAITO MOVIE</br></br><h3>7月12日放映</h3></div>
+
+  <div id="mainContent" class="hidden">
+    <section class="contentOverlay">
+      <h2>福井の高校生が県の魅力をいっぱいに詰め込んだオリジナル映画を撮影します</h2>
+    </section>
+
+    <section class="contentOverlay">
+      <h2>あらすじ</h2>
+      <p>絵を描くことが好きな女の子と絵を描くことを諦めてしまった不良生徒</br>ふたりは出会い、挫折を経験しながらも進んでいく「みち」を探す</br>現役高校生たちが抱える悩みや葛藤を描いた自主制作映画</p>
+    </section>
+
+    <section class="contentOverlay">
+      <img src="kyousan.png" alt="協賛" class="responsive-img">
+    </section>
+    <section class="contentOverlay">
+     <footer class="sns-footer">
+       <h4>SNS</h4>
+       <a href="https://www.tiktok.com/@あなたのアカウント" target="_blank" class="sns-link">
+         <img src="tiktok-icon.png" alt="TikTok" />
+       </a>
+       <a href="https://www.instagram.com/あなたのアカウント" target="_blank" class="sns-link">
+          <img src="instagram-icon.png" alt="Instagram" />
+        </a>
+       </footer>
+    </section>
+    <section id="contactSection" class="contentOverlay hidden">
+      <div class="contentOverlay contactBox">
+  <h2>お問い合わせ</h2>
+</br><h3>TEL ○○○-○○○-○○○</h3>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="お名前" required>
+    <input type="email" name="email" placeholder="メールアドレス" required>
+    <textarea name="message" rows="6" placeholder="お問い合わせ内容" required></textarea>
+    <button type="submit">送信</button>
+  </form>
+</div>
+
+      </form>
+    </section>
+  </div>
+
+  <button id="floatingContactBtn">お問い合わせ</button>
+
+  <audio id="clapSound" src="2.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
